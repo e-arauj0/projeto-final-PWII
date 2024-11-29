@@ -1,0 +1,173 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Cor de fundo clara */
+    color: #333; /* Texto principal em cinza escuro */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #2C6B3D; /* Verde escuro */
+}
+
+a {
+    color: #2C6B3D; /* Verde para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #2C6B3D; /* Verde escuro */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header a {
+    color: white; /* Links no cabeçalho */
+}
+
+header a:hover {
+    color: #d4d4d4; /* Cor mais clara ao passar o mouse */
+}
+
+/* Barra de navegação */
+nav {
+    background-color: #4CAF50; /* Verde mais claro */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 16px;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Formulários */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="password"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"], button {
+    background-color: #4CAF50; /* Verde mais claro */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #4CAF50; /* Verde mais claro */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #e9e9e9;
+}
+
+/* Página de login */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    color: #2C6B3D; /* Verde escuro */
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"],
+.login-container input[type="submit"] {
+    margin-bottom: 15px;
+}
+
+.login-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+/* Página de criação de notícias */
+.create-noticia-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-noticia-container h2 {
+    color: #2C6B3D; /* Verde escuro */
+}
+
+.create-noticia-container textarea {
+    resize: vertical;
+}
+
+/* Rodapé */
+footer {
+    background-color: #2C6B3D;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
